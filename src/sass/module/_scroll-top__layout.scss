@@ -1,0 +1,6 @@
+@use "global" as *;
+.scroll-top__layout {
+  margin-bottom: rem(50);
+  @include mq(md) {
+  }
+}

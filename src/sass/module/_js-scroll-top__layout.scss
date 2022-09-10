@@ -1,0 +1,7 @@
+@use "global" as *;
+.js-scroll-top__layout {
+  margin-bottom: rem(50);
+  overflow: hidden;
+  @include mq(md) {
+  }
+}
