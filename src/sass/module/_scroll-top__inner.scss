@@ -1,7 +1,5 @@
 @use "global" as *;
-.yyy {
+.scroll-top__inner {
   @include mq(md) {
-  }
-  @include mq(xl) {
   }
 }

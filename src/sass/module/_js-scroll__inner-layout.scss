@@ -1,0 +1,16 @@
+@use "global" as *;
+.js-scroll__inner-layout {
+  width: rem(200);
+  background: #333;
+  transition: 1s all linear;
+}
+
+.js-scroll__inner-layout:hover {
+  background: #fff;
+}
+
+.js-scroll__inner-layout::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}

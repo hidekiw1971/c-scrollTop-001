@@ -1,0 +1,35 @@
+@use "global" as *;
+.js-scroll-top__arrow {
+  display: inline-block;
+  position: relative;
+}
+
+.js-scroll-top__arrow::before {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background: #f00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-84%, -50%) rotate(-45deg);
+}
+
+.js-scroll-top__arrow::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 5px;
+  background: #f00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-16%, -50%) rotate(45deg);
+}
+
+.js-scroll-top__arrow:hover:before,
+.js-scroll-top__arrow:hover:after {
+  background: #333;
+  transition: 1s all linear;
+}

@@ -1,7 +1,5 @@
 @use "global" as *;
-.xxx {
+.js-scroll-top {
   @include mq(md) {
-  }
-  @include mq(xl) {
   }
 }

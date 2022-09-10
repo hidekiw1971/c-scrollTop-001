@@ -1,0 +1,10 @@
+@use "global" as *;
+.scroll-top__height {
+  position: relative;
+}
+
+.scroll-top__height::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}

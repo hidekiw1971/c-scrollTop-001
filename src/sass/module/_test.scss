@@ -1,0 +1,12 @@
+@use "global" as *;
+.test {
+  width: rem(200);
+  height: rem(200);
+  border: 1px solid #333;
+  transition: 1s all linear;
+  margin-bottom: rem(50);
+}
+
+.test:hover {
+  background: #f00;
+}

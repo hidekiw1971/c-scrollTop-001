@@ -1,0 +1,5 @@
+@use "global" as *;
+.js-scroll__inner {
+  @include mq(md) {
+  }
+}
